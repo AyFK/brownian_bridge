@@ -61,7 +61,7 @@ impl Color {
 }
 
 
-pub fn figure_2(results: Vec<(usize, Vec<f64>, Vec<f64>)>) {
+pub fn figure_2(results: &Vec<(usize, Vec<f64>, Vec<f64>)>) {
 
     let num_plots = results.len();
     let colors = vec![Color::Black, Color::Red, Color::Green,
